@@ -1,19 +1,31 @@
-h1  {
+* {
+    margin:0;
+}
+body{
+    background-color: darkred;
+}
+.Title  {
     font-family: monospace;
     font-size: 48;
     text-align: center;
+    color: yellow;
+    background-color:black;
+}
+.nav ul{
+    color: black;
 }
 .nav li {
-    color: black;
+    color: yellow;
     float: left;
     opacity: 1;
+    background-color: black;
 }
-.works:hover + .worksByYear{
+.works:hover + .worksByYear {
     max-height: inherit;
     opacity: 1;
 }
-.worksByYear li {
-    opacity: 0;
+.worksByYear {
+    display: none;;
     color: black;
 }
 .nav li {
