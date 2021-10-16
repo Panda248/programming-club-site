@@ -11,26 +11,49 @@ body{
     color: yellow;
     background-color:black;
 }
+.nav    {
+    background-color: black;
+    height:50px;
+}
 .nav ul{
+    padding-left:5px;
     color: black;
+    float: left;
+    margin:0px;
+    padding: 0px;
+}
+.nav li:hover  {
+    background-color: darkslategray;
 }
 .nav li {
+    padding-left: 5px;
     color: yellow;
     float: left;
     opacity: 1;
     background-color: black;
 }
-.works:hover + .worksByYear {
-    max-height: inherit;
-    opacity: 1;
+
+.workList li   {
+    width: 100%;
 }
-.worksByYear {
-    display: none;;
-    color: black;
+.works:hover + .workByYear {
+    display:block;
+    width:auto;
+    background-color: darkslategrey;
 }
+.workByYear:hover{
+    display: block;
+    position: relative;
+}
+
+.workByYear {
+    display: none;
+    position: relative;
+}
+
 .nav li {
     font-family: monospace;
-    font-size: 25px;;
+    font-size: 25px;
     list-style:none;
     position:relative;
     left:0%;
