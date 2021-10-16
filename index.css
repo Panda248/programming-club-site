@@ -1,0 +1,26 @@
+h1  {
+    font-family: monospace;
+    font-size: 48;
+    text-align: center;
+}
+.nav li {
+    color: black;
+    float: left;
+    opacity: 1;
+}
+.works:hover + .worksByYear{
+    max-height: inherit;
+    opacity: 1;
+}
+.worksByYear li {
+    opacity: 0;
+    color: black;
+}
+.nav li {
+    font-family: monospace;
+    font-size: 25px;;
+    list-style:none;
+    position:relative;
+    left:0%;
+    padding: 10px;
+}
