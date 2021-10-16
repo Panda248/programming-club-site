@@ -2,20 +2,19 @@
     margin:0;
 }
 body{
-    background-color: darkred;
+    background-color: #360259;
 }
 .Title  {
     font-family: monospace;
-    font-size: 48;
+    font-size: 60;
     text-align: center;
-    color: yellow;
-    background-color:black;
-    margin-left: 20%;
-    margin-right: 20%;
+    padding-top: 35px;
+    color: #BEDB39;
+    background-color: #2A2C2B;
     height: 110px;
 }
 .nav    {
-    background-color: black;
+    background-color: #8C1C03;
     height:50px;
 }
 .nav ul{
@@ -32,12 +31,12 @@ body{
     list-style:none;
     left:0%;
     padding: 10px;
-     color: yellow;
+     color: #BEDB39;
     float: left;
-    background-color: black;
+    background-color: #8C1C03;
 }
 .nav li:hover  {
-    background-color: darkslategray;
+    background-color: #94090D;
 }
 .workList li   {
     width: 100%;
@@ -45,7 +44,7 @@ body{
 .works:hover + .workByYear {
     display:block;
     width:auto;
-    background-color: darkslategrey;
+    background-color: #F06115;
 }
 .workByYear:hover{
     display: block;
