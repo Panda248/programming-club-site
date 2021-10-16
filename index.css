@@ -10,29 +10,35 @@ body{
     text-align: center;
     color: yellow;
     background-color:black;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 110px;
 }
 .nav    {
     background-color: black;
     height:50px;
 }
 .nav ul{
-    padding-left:5px;
-    color: black;
     float: left;
-    margin:0px;
+
     padding: 0px;
+}
+.nav>.navList   {
+    margin-left: 2%;
+}
+.nav li {
+    font-family: monospace;
+    font-size: 25px;
+    list-style:none;
+    left:0%;
+    padding: 10px;
+     color: yellow;
+    float: left;
+    background-color: black;
 }
 .nav li:hover  {
     background-color: darkslategray;
 }
-.nav li {
-    padding-left: 5px;
-    color: yellow;
-    float: left;
-    opacity: 1;
-    background-color: black;
-}
-
 .workList li   {
     width: 100%;
 }
@@ -49,13 +55,4 @@ body{
 .workByYear {
     display: none;
     position: relative;
-}
-
-.nav li {
-    font-family: monospace;
-    font-size: 25px;
-    list-style:none;
-    position:relative;
-    left:0%;
-    padding: 10px;
 }
