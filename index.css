@@ -2,7 +2,7 @@
     margin:0;
 }
 body{
-    background-color: #360259;
+    background-color: #2A2C2B;
 }
 .Title  {
     font-family: monospace;
@@ -54,4 +54,10 @@ body{
 .workByYear {
     display: none;
     position: relative;
+}
+.contents   {
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #BEDB39;
+    text-align: center;
 }
