@@ -61,3 +61,11 @@ body{
     color: #BEDB39;
     text-align: center;
 }
+.contents button    {
+    width: 100px;
+    height: 50px;
+    background-color: cyan;
+    color: black"";
+    font-family: 'Courier New', Courier, monospace;
+    vertical-align: middle;
+}
