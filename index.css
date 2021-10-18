@@ -11,10 +11,10 @@ body{
     padding-top: 35px;
     color: #BEDB39;
     background-color: #2A2C2B;
-    height: 110px;
+    padding-bottom: 35px;
 }
 .nav    {
-    background-color: #8C1C03;
+    background-color: #9b1313;
     height:50px;
 }
 .nav ul{
@@ -31,20 +31,22 @@ body{
     list-style:none;
     left:0%;
     padding: 10px;
+    margin-right: 5px;
      color: #BEDB39;
     float: left;
-    background-color: #8C1C03;
+    background-color: #9b1313;
 }
 .nav li:hover  {
-    background-color: #94090D;
+    background-color: #c2090f;
 }
 .workList li   {
     width: 100%;
+    position: relative;
 }
 .works:hover + .workByYear {
     display:block;
     width:auto;
-    background-color: #F06115;
+    background-color: inh;
 }
 .workByYear:hover{
     display: block;
@@ -54,18 +56,27 @@ body{
 .workByYear {
     display: none;
     position: relative;
+    z-index: 1;
 }
 .contents   {
+    width: 100%;
+    position: absolute;
     font-size: 28px;
     font-family: 'Courier New', Courier, monospace;
     color: #BEDB39;
     text-align: center;
+
 }
 .contents button    {
     width: 100px;
     height: 50px;
-    background-color: cyan;
+    background-color: rgb(81, 255, 0);
+    border: 0;
+    border-width: 0;
     color: black"";
     font-family: 'Courier New', Courier, monospace;
     vertical-align: middle;
+}
+.contents button:hover  {
+    background-color: #9fb82f;
 }
